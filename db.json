@@ -1,0 +1,59 @@
+{
+  "categories": [
+    {
+      "category_id": 1,
+      "category_name": "java",
+      "id": "0b3a"
+    },
+    {
+      "category_id": 2,
+      "category_name": "react",
+      "id": "5373"
+    },
+    {
+      "category_id": 3,
+      "category_name": "aws",
+      "id": "b66e"
+    }
+  ],
+  "videos": [
+    {
+      "id": "d0a8",
+      "title": "Java.lang Package Explained for Interviews | Core Java + OOP Must-Know Concepts | NareshIT",
+      "description": "Java.lang Package Explained for Interviews | Core Java + OOP Must-Know Concepts | NareshIT",
+      "url": "https://www.youtube.com/embed/DpAL_0eyRLo",
+      "views": 25000,
+      "likes": 12443,
+      "dislikes": 113,
+      "category_id": "1",
+      "comments": "super sir"
+    },
+    {
+      "id": "1696",
+      "title": "AWS EKS Authentication: IAM, RBAC, and Beyond @ 9:30 AM (IST) by Mr.Shiva on 26th Oct 25",
+      "description": "AWS EKS Authentication: IAM, RBAC, and Beyond @ 9:30 AM (IST) by Mr.Shiva on 26th Oct 25",
+      "url": "https://www.youtube.com/embed/tAud3DgdgyI",
+      "likes": 44998,
+      "views": 99983,
+      "dislikes": 120,
+      "category_id": "3",
+      "comments": "pls upload more videos sir"
+    }
+  ],
+  "admin": [
+    {
+      "admin_id": "manoj_admin",
+      "password": "manoj@123",
+      "id": "f5b9"
+    }
+  ],
+  "users": [
+    {
+      "user_id": "",
+      "user_name": "",
+      "password": "",
+      "mobile": "",
+      "id": "4f17"
+    }
+  ]
+}
