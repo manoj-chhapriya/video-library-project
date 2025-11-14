@@ -2,8 +2,8 @@ import { Link } from "react-router-dom";
 
 export function VideoLibraryHome(){
     return(
-        <div className="w-100">
-            <div className="m-2 text-center mt-5 w-100">
+        <div>
+            <div className="m-2 text-center mt-5">
                 <div className="fs-3 fw-bold text-white mb-3">
                      Home Page
                 </div>

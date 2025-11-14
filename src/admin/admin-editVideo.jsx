@@ -55,7 +55,7 @@ export function EditVideo(){
 
     return(
         <div className="d-flex justify-content-center mt-3">
-            <form className="p-3 col-10 col-md-8 col-lg-4 border bg-light overflow-y-auto" onSubmit={formik.handleSubmit} style={{height:'580px', scrollbarWidth:'none', boxShadow:'3px 3px 5px gray'}}>
+            <form className="p-3 col-10 col-md-8 col-lg-4 w-50 border bg-light overflow-y-auto" onSubmit={formik.handleSubmit} style={{height:'580px', scrollbarWidth:'none', boxShadow:'7px 7px 10px black', background:'url("/images/form-bg.jpg") center/cover repeat-x fixed'}}>
 
                 <p className="text-end mb-0"><Link to='/admin-dashboard' className="btn btn-close"></Link></p>
                 <p className="text-center pb-2 fw-bold fs-3">Edit Video</p>

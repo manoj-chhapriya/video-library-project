@@ -7,6 +7,7 @@ import { WrongPath } from "./video-library-wrongPath";
 import { AdminLoginPage } from "./admin/Admin-loginForm/admin-loginPage";
 import { EditVideo } from "./admin/admin-editVideo";    
 import { UserDashboard } from "./user/user-dashboard";
+import { UserLogin } from "./user/user-loginPage";
 
 export function VideoLibraryIndex(){
     return(
@@ -14,7 +15,7 @@ export function VideoLibraryIndex(){
             <BrowserRouter>
                 <header className="text-center mt-4 fs-2 fw-bold">
                     <Link to="/" className="text-white text-decoration-none">
-                        <div className="bi bi-house-door-fill"> Video Library</div>
+                        <div className="bi bi-house-door-fill" style={{textShadow:"1px 1px 2px black"}}> Video Library</div>
                     </Link>
                 </header>
 
@@ -26,6 +27,7 @@ export function VideoLibraryIndex(){
                         <Route path="admin-dashboard" element={<AdminDashboard/>} />
                         <Route path="admin-dashboard/add-video" element={<AddVideo/>} />
                         <Route path="admin-dashboard/edit-video/:id" element={<EditVideo />} />
+                        <Route path="user-login" element={<UserLogin/>}/>
                         <Route path="user-dashboard" element={< UserDashboard/>} />
                         <Route path="*" element={<WrongPath/>} />
                     </Routes>

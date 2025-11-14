@@ -45,10 +45,10 @@ export function AdminDashboard(){
     return(
         <div>
             <div className="d-flex justify-content-between px-3">
-                <div className="fw-bold fs-3">
+                <div className="fw-bold fs-3 text-white">
                         <span>Admin-Dashboard</span>
                 </div>
-                <div className="fs-5 fw-bold bg-light">
+                <div className="fs-5 fw-bold text-white">
                         <span className="me-4">{cookies['admin_id']}</span>
                         <button onClick={handleClick} className="btn btn-danger">Sign-out</button>
                 </div>
@@ -58,13 +58,35 @@ export function AdminDashboard(){
                     <Link className="bi bi-camera-video-fill btn btn-success fw-bold fs-5 w-25 text-decoration-none text-white" to='add-video'> Add New Videos</Link>
             </div>
 
-            <div className="mt-5 overflow-y-scroll" style={{height:'440px', scrollbarWidth:'none'}}>
+            {/* <div className="d-flex gap-4 p-3 mx-auto flex-wrap mt-5 overflow-y-hidden" style={{height:"430px"}}>
+                {
+                    videos.map((video, index) => (
+                        <div className="card" style={{width:'270px'}} key={index}>
+                            <div className="card-header">
+                                <iframe src={video.url} className="w-100"></iframe>
+                            </div>
+
+                            <div className="card-body">
+                                <p>{video.title}</p>
+                            </div>
+
+                            <div className="card-footer d-flex justify-content-around">
+                                <span className="bi bi-hand-thumbs-up"> {video.likes}</span>
+                                <span className="bi bi-hand-thumbs-down"> {video.dislikes}</span>
+                                <span className="bi bi-eye-fill"> {video.views}</span>
+                            </div>
+                        </div>
+                    ))
+                }
+            </div> */}
+
+            <div className="mt-5 overflow-y-scroll" style={{height:"450px" ,scrollbarWidth:'none'}}>
                 <div className="table-responsive px-3">
-                    <table className="table table-hover table-group-divider align-middle text-center table-light" style={{tableLayout:'fixed'}}>
+                    <table className="table table-hover table-group-divider align-middle text-center transparent-table" style={{tableLayout:'fixed'}}>
                         <thead>
                             <tr>
                                 <th>Title</th>
-                                <th>Preview</th>
+                                <th>Preview</th>    
                                 <th>Actions</th>
                             </tr>
                         </thead>

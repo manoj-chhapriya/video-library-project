@@ -14,6 +14,11 @@
       "category_id": 3,
       "category_name": "aws",
       "id": "b66e"
+    },
+    {
+      "category_id": 4,
+      "category_name": "git & github",
+      "id": "b634"
     }
   ],
   "videos": [
@@ -23,10 +28,11 @@
       "description": "Java.lang Package Explained for Interviews | Core Java + OOP Must-Know Concepts | NareshIT",
       "url": "https://www.youtube.com/embed/DpAL_0eyRLo",
       "views": 25000,
-      "likes": 12443,
+      "likes": 12444,
       "dislikes": 113,
       "category_id": "1",
-      "comments": "super sir"
+      "comments": "super sir",
+      "dislike": 112
     },
     {
       "id": "1696",
@@ -38,6 +44,50 @@
       "dislikes": 120,
       "category_id": "3",
       "comments": "pls upload more videos sir"
+    },
+    {
+      "id": "39e5",
+      "title": "Git & GitHub tutorial by apna collage",
+      "description": "Complete Git and GitHub Tutorial for Beginners",
+      "url": "https://www.youtube.com/embed/Ez8F0nW6S-w",
+      "likes": 13000,
+      "views": 25000,
+      "dislikes": 20,
+      "category_id": "4",
+      "comments": "thank you "
+    },
+    {
+      "id": "7ef9",
+      "title": "Java Streem API Programming | Jagannath Bhandari | Naresh IT",
+      "description": "Java Streem API Programming | Jagannath Bhandari | Naresh IT",
+      "url": "https://www.youtube.com/embed/WinEUN1ZXw8",
+      "likes": 2369,
+      "views": 25299,
+      "dislikes": 11,
+      "category_id": "1",
+      "comments": "thank you "
+    },
+    {
+      "id": "6ebb",
+      "title": "React Context API Explained | Parent to Child Data Sharing | React Interview FAQ | Naresh IT",
+      "description": "React Context API Explained | Parent to Child Data Sharing | React Interview FAQ | Naresh IT",
+      "url": "https://www.youtube.com/embed/kIbNo_pni2Q",
+      "likes": 5440,
+      "views": 12056,
+      "dislikes": 0,
+      "category_id": "2",
+      "comments": "sir pls upload more videos"
+    },
+    {
+      "id": "ddfb",
+      "title": "React Interview Question: How to Create Scalable React Applications",
+      "description": "React Interview Question: How to Create Scalable React Applications",
+      "url": "https://www.youtube.com/embed/O29b_DD6f8s",
+      "likes": 12864,
+      "views": 34389,
+      "dislikes": 0,
+      "category_id": "2",
+      "comments": "very helpful video"
     }
   ],
   "admin": [
@@ -49,10 +99,10 @@
   ],
   "users": [
     {
-      "user_id": "",
-      "user_name": "",
-      "password": "",
-      "mobile": "",
+      "user_id": "manoj_18",
+      "user_name": "manoj chhapriya",
+      "password": "manoj@2004",
+      "mobile": "9784154455",
       "id": "4f17"
     }
   ]
