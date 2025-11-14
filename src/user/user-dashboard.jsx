@@ -1,7 +1,7 @@
 import axios from "axios";
 import { useEffect, useState } from "react"
 import { useDispatch, useSelector } from "react-redux";
-import { addWatchLater } from "../../slicers/video-slice";
+import { addWatchLater } from "../slicers/video-slice";
 // import store from "../../store/store";
 
 export function UserDashboard(){

@@ -10,9 +10,9 @@ import { UserDashboard } from "./user/user-dashboard";
 
 export function VideoLibraryIndex(){
     return(
-        <div>
+        <div className="w-100">
             <BrowserRouter>
-                <header className="text-center pt-5 fs-2 fw-bold">
+                <header className="text-center mt-4 fs-2 fw-bold">
                     <Link to="/" className="text-white text-decoration-none">
                         <div className="bi bi-house-door-fill"> Video Library</div>
                     </Link>
